@@ -137,7 +137,7 @@ SRC
       rdir = File.dirname(@right)
       routfile = File.join(rdir, "subset.#{File.basename @right}")
       
-      subsampleC(n,seed, @left, @right, loutfile, routfile)
+      subsampleC(n, seed, @left, @right, loutfile, routfile)
 
       [loutfile, routfile]
     end
